@@ -11,6 +11,8 @@ function nextSequence() {
 
     gamePattern.push(randomChosenColor)
 
-    return gamePattern
+    $("#"+randomChosenColor).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100)
+
+    return randomChosenColor
 
 }
